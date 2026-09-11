@@ -1,0 +1,78 @@
+{
+  "draft_repo": "pquip-multitenant-pki-requirements",
+  "utc": "20260911T200047Z",
+  "host": "sanctum-13.sanctumsecops.net",
+  "pen": "1.3.6.1.4.1.65953",
+  "status": "live",
+  "workgroup_acronym": "pquip",
+  "source": "draft-vicente-pquip-multitenant-pki-requirements-04.xml",
+  "target_submission_type": "IETF",
+  "commit": "7c726a8c05c9ddecbe9fdfa4f824ad2ba5ec1d69",
+  "branch": "main",
+  "remote": "https://github.com/sanctumsecopsmssp/pquip-multitenant-pki-requirements.git",
+  "worktree_dirty": true,
+  "tools": {
+    "xml2rfc": "xml2rfc 3.34.1",
+    "kramdown-rfc2629": "/usr/lib/ruby/vendor_ruby/rubygems.rb:265:in `find_spec_for_exe': can't find gem kramdown-rfc2629 (>= 0.a) with executable kramdown-rfc2629 (Gem::GemNotFoundException)",
+    "idnits": "3.1.0"
+  },
+  "artifacts": {
+    "draft-vicente-pquip-multitenant-pki-requirements-04.xml": {
+      "sha256": "26a8501c980ed7edad79549e7bbf09f4e8d3fe9fadcfcd7ecbb84a7e14af70ca",
+      "bytes": 15372
+    },
+    "draft-vicente-pquip-multitenant-pki-requirements-04.txt": {
+      "sha256": "3bcb27abc5941eff8022652cd890693c9d0eaa00cd52a6e3492abef1438ebd1f",
+      "bytes": 15436
+    },
+    "draft-vicente-pquip-multitenant-pki-requirements-04.html": {
+      "sha256": "22010530252a2f85f5750422b5d2db25e75cf72bd65151e9b05790f6b606670a",
+      "bytes": 59810
+    }
+  },
+  "boilerplate": {
+    "file": "draft-vicente-pquip-multitenant-pki-requirements-04.xml",
+    "ipr": "trust200902",
+    "category": "info",
+    "version": "3",
+    "docName": "draft-vicente-pquip-multitenant-pki-requirements-04",
+    "docName_matches_file": true,
+    "submissionType": "IETF",
+    "workgroup": "Post-Quantum Use In Protocols",
+    "workgroup_target": "Post-Quantum Use In Protocols",
+    "workgroup_is_area": false,
+    "authors": 1,
+    "has_abstract": true,
+    "seriesInfo": [
+      [
+        "Internet-Draft",
+        "draft-vicente-pquip-multitenant-pki-requirements-04"
+      ]
+    ],
+    "would_change": [],
+    "changed": [],
+    "submit_ready": true
+  },
+  "submit_ready": true,
+  "drift": [],
+  "builds": [
+    {
+      "pass": 1,
+      "md2xml_rc": null,
+      "text_rc": 0,
+      "html_rc": 0,
+      "idnits_rc": 1,
+      "xml2rfc_tail": "way from today's date\n/srv/ietf/repos/pquip-multitenant-pki-requirements/draft-vicente-pquip-multitenant-pki-requirements-04.xml(286): Warning: Unused reference: There seems to be no reference to [FIPS204] in the document\n/srv/ietf/repos/pquip-multitenant-pki-requirements/draft-vicente-pquip-multitenant-pki-requirements-04.xml(292): Warning: Unused reference: There seems to be no reference to [FIPS205] in the document\n/srv/ietf/repos/pquip-multitenant-pki-requirements/draft-vicente-pquip-multitenant-pki-requirements-04.xml(298): Warning: Unused reference: There seems to be no reference to [NIST.SP.800-207] in the document\n Created file draft-vicente-pquip-multitenant-pki-requirements-04.txt\n",
+      "idnits_tail": "       [string] [choices: \"normal\", \"forgive-checklist\", \"submission\"] [default:\n                                                                       \"normal\"]\n      --no-progress  Disable progress messages / animations in pretty output\n                                                                       [boolean]\n      --offline      Disable validations that require an internet connection\n                                                      [boolean] [default: false]\n  -o, --output       Output format\n     [string] [choices: \"pretty\", \"simple\", \"json\", \"count\"] [default: \"pretty\"]\n      --solarized    Use alternate colors for a solarized light themed terminal\n                                                      [boolean] [default: false]\n      --no-color     Disable color in pretty output                    [boolean]\n      --version      Show version number                               [boolean]\n  -h, --help         Show help                                         [boolean]\n\nExamples:\n  idnits draft-ietf-abcd-01.xml\n  idnits -m submission -y 2026 draft-ietf-abcd-01.xml\n  idnits https://www.rfc-editor.org/rfc/rfc2549\n\nNot enough non-option arguments: got 0, need at least 1\n"
+    },
+    {
+      "pass": 2,
+      "md2xml_rc": null,
+      "text_rc": 0,
+      "html_rc": 0,
+      "idnits_rc": 1,
+      "xml2rfc_tail": "way from today's date\n/srv/ietf/repos/pquip-multitenant-pki-requirements/draft-vicente-pquip-multitenant-pki-requirements-04.xml(286): Warning: Unused reference: There seems to be no reference to [FIPS204] in the document\n/srv/ietf/repos/pquip-multitenant-pki-requirements/draft-vicente-pquip-multitenant-pki-requirements-04.xml(292): Warning: Unused reference: There seems to be no reference to [FIPS205] in the document\n/srv/ietf/repos/pquip-multitenant-pki-requirements/draft-vicente-pquip-multitenant-pki-requirements-04.xml(298): Warning: Unused reference: There seems to be no reference to [NIST.SP.800-207] in the document\n Created file draft-vicente-pquip-multitenant-pki-requirements-04.txt\n",
+      "idnits_tail": "       [string] [choices: \"normal\", \"forgive-checklist\", \"submission\"] [default:\n                                                                       \"normal\"]\n      --no-progress  Disable progress messages / animations in pretty output\n                                                                       [boolean]\n      --offline      Disable validations that require an internet connection\n                                                      [boolean] [default: false]\n  -o, --output       Output format\n     [string] [choices: \"pretty\", \"simple\", \"json\", \"count\"] [default: \"pretty\"]\n      --solarized    Use alternate colors for a solarized light themed terminal\n                                                      [boolean] [default: false]\n      --no-color     Disable color in pretty output                    [boolean]\n      --version      Show version number                               [boolean]\n  -h, --help         Show help                                         [boolean]\n\nExamples:\n  idnits draft-ietf-abcd-01.xml\n  idnits -m submission -y 2026 draft-ietf-abcd-01.xml\n  idnits https://www.rfc-editor.org/rfc/rfc2549\n\nNot enough non-option arguments: got 0, need at least 1\n"
+    }
+  ]
+}
